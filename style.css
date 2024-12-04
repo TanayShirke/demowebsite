@@ -1,6 +1,6 @@
 /* Reset and base styles */
 :root {
-  --primary-color: #FBD99A;
+  --primary-color: #f7d83d;
   --secondary-color: #8B520C;
   --text-color: #ffffff;
   --bg-color:  #0A0A0A;
@@ -85,6 +85,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: center;
+  transform: translateY(-5px);
 }
 
 .hero-image {
@@ -139,7 +140,7 @@ section:nth-child(even) {
 
 .timeline-item {
   padding: 2rem;
-  background: rgba(188, 111, 16, 0.05);
+  background: rgba(62, 61, 59, 0.299);
   border: 1px solid rgba(188, 111, 16, 0.1);
   border-radius: 8px;
   margin-bottom: 2rem;
@@ -164,7 +165,8 @@ section:nth-child(even) {
 }
 
 .skill-category {
-  background: rgba(188, 111, 16, 0.05);
+  display: table;
+  background: rgba(62, 61, 59, 0.299);
   border: 1px solid rgba(188, 111, 16, 0.1);
   padding: 2rem;
   border-radius: 8px;
@@ -188,7 +190,7 @@ section:nth-child(even) {
 }
 
 .education-item {
-  background: rgba(188, 111, 16, 0.05);
+  background: rgba(62, 61, 59, 0.299);
   border: 1px solid rgba(188, 111, 16, 0.1);
   padding: 2rem;
   border-radius: 8px;
